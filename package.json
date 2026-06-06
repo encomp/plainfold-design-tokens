@@ -23,7 +23,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "vite build"
   },
   "dependencies": {
     "@plainfold/store": "github:encomp/plainfold-store",
