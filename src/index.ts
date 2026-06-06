@@ -18,3 +18,12 @@ export {
   registerReservedIds,
 } from './validate-theme'
 export { sanitizeSvgIcon } from './sanitize-icon'
+export { ThemeLibrary } from './theme-library'
+export { PfDesignTokensProvider } from './PfDesignTokensProvider'
+export {
+  BUNDLED_THEMES,
+  BUNDLED_THEME_IDS,
+  THEME_MIDNIGHT,
+  THEME_LINEN,
+  THEME_FOCUS,
+} from './themes'
