@@ -17,3 +17,4 @@ export {
   validateThemeFull,
   registerReservedIds,
 } from './validate-theme'
+export { sanitizeSvgIcon } from './sanitize-icon'
