@@ -45,7 +45,7 @@ describe('PfDesignTokensProvider', () => {
 
   it('renders nothing before theme is loaded', async () => {
     const { PfDesignTokensProvider } = await import('../PfDesignTokensProvider')
-    const { container } = render(
+    const { container: _container } = render(
       <PfDesignTokensProvider>
         <div>Content</div>
       </PfDesignTokensProvider>
